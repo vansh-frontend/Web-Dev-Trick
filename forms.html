@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Login Form</title>
+</head>
+<body>
+    
+    <div class="login" id="login">
+        <h1>LOGIN INFORMATION</h1>
+
+        <div class="form">
+            <form id="loginForm">
+                <div class="input">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" class="input" placeholder="for example vansh" spellcheck="true" autocomplete="on" autofocus="on"  pattern="[a-zA-Z]+" required>
+                </div>
+
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="for example@gmail.com" spellcheck="true" autocomplete="on" autofocus="on" inputmode="email" required>
+                </div>
+
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="enter your password.." spellcheck="true" autocomplete="on" autofocus="on"  required>
+
+                    <div class="check">
+                        <input type="checkbox" id="check" class="custom-checkbox"><b>👁️show password</b>
+                    </div>
+                </div>
+
+                <div class="google">
+                    <button><a href="#">sign with google</a></button>
+                </div>
+
+                <div class="reset">
+                    <button><a href="#">reset password</a></button>
+                </div>
+
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="forms.js"></script>
+</body>
+</html>

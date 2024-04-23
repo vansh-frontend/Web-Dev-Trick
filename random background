@@ -1,0 +1,18 @@
+step 1) make your html file and link it css file from link tag
+<link rel="stylesheet" href="style.css">
+
+step 2) go to website name unplash choose your intersted images type for example (computer) or you can choose random
+https://unsplash.com/
+
+step 3) after selecting 
+make body tag and paste that link in it at set background with background property
+body {
+  background-image: url("https://source.unsplash.com/random/1920x1080"); /* Background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+here it is
